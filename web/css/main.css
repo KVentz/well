@@ -810,6 +810,10 @@ body {
 	opacity: .7;
 }
 
+.mobile_img {
+	display: none;
+}
+
 .btn {
 	font-family: 'Roboto';
 	font-size: 24px;
@@ -1113,6 +1117,14 @@ body {
 }
 
 @media (max-width: 640px) {
+
+.desktop_img {
+	display: none;
+}
+
+.mobile_img {
+	display: block;
+}
 
 .layout-inner,
 .header__inner,
