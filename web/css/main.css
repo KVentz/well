@@ -2116,6 +2116,7 @@ body {
 .text_item .form_inner textarea,
 .form_item .form_inner input,
 .form_item .form_inner textarea {
+	overflow: hidden;
 	width: 100%;
 	margin-bottom: 24px;
 }
