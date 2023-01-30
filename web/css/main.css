@@ -2220,7 +2220,7 @@ body {
 
 .page__item_text {
 	flex-direction: column;
-	padding: 0 20px;
+	padding: 0 24px;
 }
 
 .page__item_text .container_text {
@@ -2253,7 +2253,7 @@ body {
 }
 
 .form_item .container {
-	padding: 0 20px;
+	padding: 0 24px;
 }
 
 .city_img {
