@@ -10,37 +10,37 @@
 </head>
 <body>
 <div class="page-container page-main">
+    <div class="burger">
+        <button class="hamburger" id="burger">
+            <span></span>
+        </button>
+    </div>
+    <div class="menu_wrapper menu_opener">
+        <div class="menu_mobile">
+            <div class="menu_mobile__inner">
+                <div class="menu_body">
+                    <ul class="links_list desktop" id="myMenu">
+                        <li data-menuanchor="home" ><a href="#home" class="link_menu">Home</a><p class="num">01</p></li>
+                        <li data-menuanchor="about"><a href="#about" class="link_menu">About</a><p class="num">02</p></li>
+                        <li data-menuanchor="contact"><a href="#contact" data-menuanchor="contact" class="link_menu">Contact Us</a><p class="num">03</p></li>
+                    </ul>
+                    <ul class="links_list mobile">
+                        <li><a href="#section1" class="link_menu">Home</a><p class="num">01</p></li>
+                        <li><a href="#section2" class="link_menu">About</a><p class="num">02</p></li>
+                        <li><a href="#section3" data-menuanchor="contact" class="link_menu">Contact Us</a><p class="num">03</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <main class="page" id="fullpage">
        <section class="section section page__item main_item" id="section1" data-anchor="home">
            <div class="container">
-               <div class="burger">
-                   <button class="hamburger" id="burger">
-                       <span></span>
-                   </button>
-               </div>
-               <div class="menu_wrapper menu_opener">
-                   <div class="menu_mobile">
-                       <div class="menu_mobile__inner">
-                           <div class="menu_body">
-                               <ul class="links_list desktop" id="myMenu">
-                                   <li data-menuanchor="home" ><a href="#home" class="link_menu">Home</a><p class="num">01</p></li>
-                                   <li data-menuanchor="about"><a href="#about" class="link_menu">About</a><p class="num">02</p></li>
-                                   <li data-menuanchor="contact"><a href="#contact" data-menuanchor="contact" class="link_menu">Contact Us</a><p class="num">03</p></li>
-                               </ul>
-                               <ul class="links_list mobile">
-                                   <li><a href="#section1" class="link_menu">Home</a><p class="num">01</p></li>
-                                   <li><a href="#section2" class="link_menu">About</a><p class="num">02</p></li>
-                                   <li><a href="#section3" data-menuanchor="contact" class="link_menu">Contact Us</a><p class="num">03</p></li>
-                               </ul>
-                           </div>
-                       </div>
-                   </div>
-               </div>
                <div class="main_logo gs_animate">
                   <img src="img/wellyards-logo.svg" alt="">
                </div>
-               <img class="main_img desktop_img gb_animate" src="img/001.png" alt=""> 
-               <img class="mobile_img" src="img/img-mobile.png" alt="#">
+               <img class="main_img desktop_img gb_animate" src="img/001.png" alt="">
+               <img class="mobile_img" src="img/img-mobile.png" alt="">
            </div>
        </section>
         <section class="section page__item text_item" id="section2" data-anchor="about">
