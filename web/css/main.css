@@ -2241,8 +2241,8 @@ body {
 	color: rgba(31, 60, 108, .8);
 }
 
-.img_girls {
-	display: none;
+.page__item_text .img_girls {
+	max-width: 90%;
 }
 
 .form_item h3 {
