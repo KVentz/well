@@ -21,17 +21,6 @@ $(window).on('load resize', function () {
         viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
     }
 });
-
-$(window).on('load resize', function () {
-
-    if (mediaCheckMobile.matches) {
-        console.log('mobile');
-    } else if (mediaCheckTablet.matches) {
-        console.log('tablet');
-    } else if (mediaCheckDesktop.matches) {
-        console.log('desktop');
-    }
-});
 window.onload = function() {
 
     function GetIEVersion() {
@@ -104,21 +93,24 @@ if ( $('.page-container').hasClass('page-main') ) {
         if (mediaCheckDesktop.matches) {
 
             if (!fullpageInit) {
+                fullpageInit = true;
                 fullpageSettings();
-                $.fn.fullpage.reBuild();
+                $.fn.fullpage.reBuild('all');
             }
+
         } else if ((mediaCheckMobile.matches) || (mediaCheckTablet.matches)) {
+
+            console.log('tutu');
+
+            if (fullpageInit) {
+                fullpageInit = false;
+                $.fn.fullpage.destroy('all');
+            }
 
             $('.form').removeClass('gf_animate');
             $('.img_girls').removeClass('gr_animate');
             $('.container_text').removeClass('gl_animate');
             $('.main_logo').removeClass('gs_animate');
-
-            if (fullpageInit) {
-                fullpageInit = false;
-                $.fn.fullpage.destroy('all');
-
-            }
 
         }
     });

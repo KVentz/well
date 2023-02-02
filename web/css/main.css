@@ -500,7 +500,11 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	transition: all .2s;
 	color: #1f3c6c;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .header {
@@ -553,7 +557,7 @@ body {
 	position: relative;
 	display: flex;
 	width: 100%;
-	background: linear-gradient(180deg, #e8f0fd 0%, #fff 100%);
+	background: linear-gradient(180deg, #eff5ff 0%, #fff 100%);
 	align-items: center;
 	justify-content: center;
 }
@@ -646,7 +650,7 @@ body {
 }
 
 .form_item {
-	background: #f3f8ff;
+	background: rgba(243, 248, 255, .8);
 }
 
 .form_item .form_name {
@@ -709,7 +713,7 @@ body {
 }
 
 .page__item_text .container_text .first_part {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .page__item_text .container_text p {
