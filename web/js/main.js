@@ -135,8 +135,10 @@ if ( $('.page-container').hasClass('page-main') ) {
     hamburger.on('click', function () {
         if ( $(this).hasClass('hamburger_active') ) {
             hamburgerClose()
+            $('body').removeClass('stopped');
         } else {
             hamburgerOpen();
+            $('body').addClass('stopped');
         }
     });
 
