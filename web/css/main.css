@@ -1994,7 +1994,6 @@ body {
 @media (max-height: 600px) and (max-width: 1279px) and (min-width: 1199px) {
 
 .page__item {
-	height: 100vh;
 	min-height: 720px;
 }
 
@@ -2009,7 +2008,7 @@ body {
 
 }
 
-@media (max-height: 821px) and (max-width: 1200px) and (min-width: 640px) {
+@media (max-height: 821px) and (max-width: 1279px) and (min-width: 640px) {
 
 .main_item {
 	height: auto !important;
@@ -2052,7 +2051,15 @@ body {
 
 }
 
-@media (max-width: 1199px) {
+@media (min-height: 700px) and (max-width: 640px) {
+
+.main_item {
+	max-height: 55vh;
+}
+
+}
+
+@media (max-width: 1279px) {
 
 .burger {
 	top: 1.2%;
@@ -2390,6 +2397,23 @@ body {
 .main_item .main_logo img {
 	width: 50%;
 	max-width: 250px;
+}
+
+}
+
+@media (max-height: 600px) {
+
+.page__item_text .container_text .h2 {
+	font-size: 34px;
+	line-height: 35px;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.form_item h3 {
+	font-size: 34px;
+	line-height: 35px;
+	margin-bottom: 30px;
 }
 
 }
