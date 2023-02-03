@@ -2003,7 +2003,7 @@ body {
 @media (max-width: 768px) and (min-width: 400px) {
 
 .page__item_text .img_girls img {
-	width: 100%;
+	width: auto;
 	max-height: 300px;
 }
 
