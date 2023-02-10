@@ -2056,6 +2056,15 @@ body {
 	margin-right: 100px;
 }
 
+@media (min-width: 400px) and (max-width: 640px) {
+
+.page .main_item {
+	height: 70vh;
+	max-height: 75vh;
+}
+
+}
+
 @media (max-height: 600px) and (max-width: 1279px) and (min-width: 1199px) {
 
 .page__item {
