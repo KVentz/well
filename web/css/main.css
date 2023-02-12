@@ -830,6 +830,10 @@ body {
 	background: linear-gradient(0deg, #fff 45.58%, #f1f4fa 120%);
 }
 
+.serv_item .container_text {
+	max-width: 45%;
+}
+
 .serv_item .serv_list {
 	margin-bottom: 50px;
 }
@@ -880,6 +884,11 @@ body {
 
 .serv_list ul {
 	margin-right: 32px;
+}
+
+.page__item_text .container_text .via_text {
+	width: 100%;
+	max-width: 415px;
 }
 
 .footer {
@@ -1126,10 +1135,10 @@ body {
 	color: #fff;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #1f79cc;
+	border-color: #1f3c6c;
 	border-radius: 100px;
 	outline: 0;
-	background-color: #1f79cc;
+	background-color: #1f3c6c;
 	box-shadow: none;
 }
 
@@ -1144,8 +1153,8 @@ body {
 .btn:focus {
 	transition: all .2s;
 	color: #fff;
-	border-color: #1f3c6c;
-	background-color: #1f3c6c;
+	border-color: #1f79cc;
+	background-color: #1f79cc;
 }
 
 .btn:active {
@@ -1902,6 +1911,8 @@ body {
 }
 
 .menu_mobile__inner .menu_body .links_list li {
+	position: relative;
+	z-index: 12;
 	display: flex;
 	width: 100%;
 	height: 80px;
@@ -2139,11 +2150,11 @@ body {
 
 }
 
-@media (max-width: 1279px) and (min-width: 900px) {
+@media (max-width: 1279px) and (min-width: 920px) {
 
 .page__item_text {
 	flex-direction: column;
-	padding: 0 12% !important;
+	padding: 0 12% 0 17% !important;
 }
 
 }
@@ -2307,6 +2318,11 @@ body {
 
 .service_layout {
 	flex-direction: column-reverse;
+}
+
+.page__item_text .container_text .via_text {
+	width: 100%;
+	max-width: 100%;
 }
 
 }
