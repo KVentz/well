@@ -2206,11 +2206,11 @@ body {
 
 .page__item_text .container_text {
 	max-width: 100%;
-	padding: 60px 0;
+	padding: 60px 0 40px 0;
 }
 
 .text_item {
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 .girls_mobile {
@@ -2539,7 +2539,7 @@ body {
 }
 
 .page__item_text .container_text {
-	padding: 40px 0;
+	padding: 40px 0 0 0;
 }
 
 .page__item_text .container_text .h2 {
