@@ -2539,7 +2539,7 @@ body {
 }
 
 .page__item_text .container_text {
-	padding: 40px 0 0 0;
+	padding: 40px 0 24px 0;
 }
 
 .page__item_text .container_text .h2 {
