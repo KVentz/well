@@ -718,9 +718,9 @@ body {
 
 .page__item_text .container_text p {
 	font-family: 'Roboto';
-	font-size: 19px;
+	font-size: 24px;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 30px;
 	max-width: 90%;
 	margin-bottom: 20px; /* or 126% */
 	letter-spacing: -.01em;
@@ -1087,6 +1087,12 @@ body {
 
 .mobile {
 	display: none;
+}
+
+.illust {
+	width: auto;
+	margin-right: 0;
+	margin-bottom: 32px;
 }
 
 .btn {
@@ -2094,7 +2100,7 @@ body {
 
 .main_item .main_img {
 	display: block;
-	margin-top: 20%  !important;
+	margin-top: 10%  !important;
 	opacity: 1;
 }
 
@@ -2324,7 +2330,7 @@ body {
 }
 
 .main_item .main_logo {
-	top: 10%;
+	top: 20%;
 }
 
 .main_item .main_logo img {
@@ -2347,7 +2353,7 @@ body {
 
 .page__item_text {
 	flex-direction: column;
-	padding: 0 24px;
+	padding: 0 32px;
 }
 
 .page__item_text .container_text {
@@ -2357,7 +2363,7 @@ body {
 
 .page__item_text .container_text p {
 	font-family: 'Roboto';
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 24px;
@@ -2488,6 +2494,11 @@ body {
 
 .page__item_text .container_text .h2 {
 	margin-bottom: 32px;
+}
+
+.main_item {
+	height: 99vh;
+	min-height: 99vh;
 }
 
 }
