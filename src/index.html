@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    //= html/_head.html
+    <title>Wellyards</title>
+</head>
+<body>
+<div class="page-container page-main">
+    <div class="burger">
+        <button class="hamburger" id="burger">
+            <span></span>
+        </button>
+    </div>
+    <div class="menu_wrapper menu_opener">
+        <div class="menu_mobile">
+            <div class="menu_mobile__inner">
+                <div class="menu_body">
+                    <ul class="links_list desktop" id="myMenu">
+                        <li data-menuanchor="home" ><a href="#home" class="link_menu">Home</a><p class="num">01</p></li>
+                        <li data-menuanchor="about"><a href="#about" class="link_menu">About</a><p class="num">02</p></li>
+                        <li data-menuanchor="about"><a href="#service" class="link_menu">Services</a><p class="num">03</p></li>
+                        <li data-menuanchor="contact"><a href="#contact" class="link_menu">Contact Us</a><p class="num">04</p></li>
+                    </ul>
+                    <ul class="links_list mobile">
+                        <li><a href="#section1" class="link_menu">Home</a><p class="num">01</p></li>
+                        <li><a href="#section2" class="link_menu">About</a><p class="num">02</p></li>
+                        <li><a href="#section3" class="link_menu">Services</a><p class="num">03</p></li>
+                        <li><a href="#section4" class="link_menu">Contact Us</a><p class="num">04</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="page" id="fullpage">
+       <section class="section section page__item mob_animate main_animate main_item" id="section1" data-anchor="home">
+           <div class="container">
+               <div class="main_logo gs_animate">
+                  <img src="img/wellyards-logo.svg" alt="">
+               </div>
+               <img class="main_img desktop_img gb_animate" src="img/001.png" alt="">
+               <img class="mobile_img" src="img/img-mobile.png" alt="">
+           </div>
+       </section>
+        <section class="section page__item text_item full mob_animate text_animate" id="section2" data-anchor="about">
+            <div class="container">
+                <div class="page__item_text">
+                    <div class="container_text gl_animate">
+                        <div class="first_part">
+                            <p class="h2">At all times, wellyards (courtyards with wells or other sources of water) have been the real centers of life.</p>
+                            <p>Wellyards around the world attracted people. It was possible to draw water there, discuss the latest news and solve any, even the most complex issues. </p>
+                            <p>Wellyards have always been family friendly places and have helped many generations, one after another.</p>
+                        </div>
+                        <!--<div class="mobile_img girls_mobile">-->
+                            <!--<img src="img/girls.png" alt="">-->
+                        <!--</div>-->
+                        <!--<div class="divider"></div>-->
+                        <p>Today the Wellyards continues this tradition and carries out its mission as a multi purpose office for the next generations of families.</p>
+                    </div>
+                    <div class="img_girls gr_animate">
+                        <img class="desktop_desktop" src="img/girls.png" alt="">
+                        <img class="mobile_mobile illust" src="img/girls_mobile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section page__item text_item full serv_item mob_animate text_animate" id="section3" data-anchor="service">
+            <div class="container">
+                <div class="page__item_text service_layout">
+                    <div class="img_girls gc_animate boys_m">
+                        <img class="desktop_desktop" src="img/boys.png" alt="">
+                        <img class="mobile_mobile" src="img/boys_mobile.png" alt="">
+                    </div>
+                    <div class="container_text ge_animate">
+                        <div class="first_part">
+                            <p class="h2">We guide our Clients in all the following areas:</p>
+                            <ul class="serv_list">
+                                <li><p>Corporate Services</p></li>
+                                    <li><p>Tax & Legal Matters</p></li>
+                                    <li><p>Relocation / Lifestyle</p></li>
+                                    <li><p>Private Wealth</p></li>
+                                    <li><p>Private Equity</p></li>
+                                    <li><p>Art & Finance</p></li>
+                            </ul>
+                        </div>
+                        <p class="via_text">All relationships are coordinated via one dedicated contact.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section section page__item mob_animate text_animate form_item full" id="section4" data-anchor="contact">
+            <div class="container last_block">
+                <div class="form_container">
+                    <div class="form gf_animate">
+                        <h3>Contact Us</h3>
+                        <div class="form_inner">
+                            <div class="name_box">
+                                <div class="form_inner__item">
+                                    <p class="form_name">Name</p>
+                                    <input class="form__item" type="text" placeholder="John Doe">
+                                </div>
+
+                                <div class="form_inner__item">
+                                    <p class="form_name">Email</p>
+                                    <input class="form__item" type="email" placeholder="johndoe@mail.com">
+                                </div>
+
+                            </div>
+
+                            <div class="form_inner__item">
+                                <p class="form_name">How can we help you?</p>
+                                <textarea class="form__textarea" name="Text" id="" placeholder="Enter your message"></textarea>
+                            </div>
+
+                        </div>
+                        <div class="button_container">
+                            <button class="btn">Inquire</button>
+                            <p>All fields are required to be completed</p>
+                        </div>
+                    </div>
+                    <div class="city_img">
+                        <img src="img/city.png" alt="#">
+                    </div>
+                </div>
+                <div class="footer_last">
+                    <div class="footer_last__container">
+                        <div class="policy">
+                            <a class="link" href="#">Privacy Policy</a><span> | </span>
+                            <a class="link" href="#">Terms & Conditions</a>
+                        </div>
+                        <div>
+                            <span>(c) 2023 Wellyards. All Rights Reserved</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+</div>
+//= html/_scripts.html
+</body>
+</html>

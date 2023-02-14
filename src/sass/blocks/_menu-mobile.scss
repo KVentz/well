@@ -1,0 +1,93 @@
+.menu_wrapper {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.menu_mobile {
+  background-color: $color-blue;
+  transform: translateX(100%);
+  visibility: hidden;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+  max-width: 25%;
+  width: 25%;
+  height: 100%;
+  &__inner {
+    position: relative;
+    z-index: 11;
+    height: 100%;
+    .menu_body {
+      padding: 40px;
+      overflow-y: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-bottom: 0;
+        .links_list {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          width: 100%;
+            li {
+              width: 100%;
+              border-bottom: 1px solid #375B97;
+              height: 80px;
+              display: flex;
+              justify-content: space-between;
+              position: relative;
+              z-index: 12;
+                .num {
+                  font-size: 16px;
+                  line-height: 80px;
+                  text-align: right;
+                  letter-spacing: -0.02em;
+
+                  color: #5D8CDC;
+                }
+            }
+            .link_menu {
+              width: 100%;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 28px;
+              line-height: 80px;
+              letter-spacing: -0.02em;
+              color: #FFFFFF;
+              text-decoration: none;
+            }
+        }
+    }
+  }
+}
+
+.menu-mobile_opened {
+  visibility: visible;
+  transform: translateX(0%);
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.3s;
+    .menu_mobile {
+      visibility: visible;
+      transform: translateX(0%);
+      transition: all 0.3s ease-in-out;
+      transition-delay: 0.3s;
+    }
+}
+
+.stopped {
+  overflow: hidden;
+}

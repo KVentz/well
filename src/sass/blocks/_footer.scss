@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 90px;
+  @extend .layout-padding;
+  background-color: transparent;
+}
+
+.footer__inner {
+  @extend .layout-inner;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  text-align: center;
+  letter-spacing: -0.01em;
+    img {
+      width: 100%;
+    }
+
+  color: rgba(31, 60, 108, 0.5);
+
+    .link {
+      color: $color-blue;
+      opacity: 0.75;
+        &:first-child {
+          margin-left: 20px;
+        }
+    }
+}
