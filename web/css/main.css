@@ -2327,7 +2327,19 @@ body {
 
 }
 
-@media (max-width: 1024px) {
+@media (orientation: portrait) and (max-width: 1220px) {
+
+.desktop_desktop {
+	display: none;
+}
+
+.mobile_mobile {
+	display: block;
+}
+
+}
+
+@media (max-width: 1023px) {
 
 .main_item .main_logo {
 	top: 1%;
@@ -2366,9 +2378,9 @@ body {
 	width: 90%;
 }
 
-.page__item_text .img_girls .desktop_desktop {
+/* .page__item_text .img_girls .desktop_desktop {
 	display: inline;
-}
+} */
 
 .page__item_text .img_girls {
 	max-width: 50%;
@@ -2530,6 +2542,7 @@ body {
 	max-width: 100%; /* or 150% */
 	letter-spacing: -.01em;
 	color: rgba(31, 60, 108, .8);
+	text-align: justify;
 }
 
 .page__item_text .img_girls {

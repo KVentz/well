@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Не разрываем словосочетания Attracted people и Multi purpose.">
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Уменьшена задержка появление блоков при прокрутке на мобильных устройствах.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +353,7 @@
       <workItem from="1676292049021" duration="4340000" />
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
-      <workItem from="1676442734270" duration="11117000" />
+      <workItem from="1676442734270" duration="15480000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -389,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676454518902</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Уменьшена задержка появление блоков при прокрутке на мобильных устройствах.">
+      <created>1676455214167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676455214167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -446,7 +454,8 @@
     <MESSAGE value="Добавлены файлы основной картинки высокого разрешения для современных смартфонов с retina-экранами." />
     <MESSAGE value="Исправляем проблему падающего солнца в большинстве конфигураций." />
     <MESSAGE value="Не разрываем словосочетания Attracted people и Multi purpose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Не разрываем словосочетания Attracted people и Multi purpose." />
+    <MESSAGE value="Уменьшена задержка появление блоков при прокрутке на мобильных устройствах." />
+    <option name="LAST_COMMIT_MESSAGE" value="Уменьшена задержка появление блоков при прокрутке на мобильных устройствах." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
