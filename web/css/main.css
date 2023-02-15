@@ -1458,8 +1458,8 @@ body {
 .fadeInUp-later-unpo {
 	-webkit-animation-name: fadeInUp;
 	animation-name: fadeInUp;
-	-webkit-animation-delay: .5s;
-	animation-delay: .5s;
+	-webkit-animation-delay: .1s;
+	animation-delay: .1s;
 }
 
 .fadeInUpBig {
