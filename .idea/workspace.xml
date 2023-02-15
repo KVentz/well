@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Фиксируем тёмные круги на иллюстрациях на планшетах так, как на мобильной версии.&#10;&#10;Если изображение сбоку от текста, то круг сверху. Если изображение под текстом, то круг сбоку.">
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Отключить выравнивание по двум сторонам для заголовков и последней строки «All relationships are coordinated via one dedicated contact.»">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
     </list>
@@ -352,7 +352,7 @@
       <workItem from="1676292049021" duration="4340000" />
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
-      <workItem from="1676442734270" duration="17579000" />
+      <workItem from="1676442734270" duration="18452000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -403,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676459653722</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Отключить выравнивание по двум сторонам для заголовков и последней строки «All relationships are coordinated via one dedicated contact.»">
+      <created>1676461703017</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676461703018</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -462,7 +469,8 @@
     <MESSAGE value="Не разрываем словосочетания Attracted people и Multi purpose." />
     <MESSAGE value="Уменьшена задержка появление блоков при прокрутке на мобильных устройствах." />
     <MESSAGE value="Фиксируем тёмные круги на иллюстрациях на планшетах так, как на мобильной версии.&#10;&#10;Если изображение сбоку от текста, то круг сверху. Если изображение под текстом, то круг сбоку." />
-    <option name="LAST_COMMIT_MESSAGE" value="Фиксируем тёмные круги на иллюстрациях на планшетах так, как на мобильной версии.&#10;&#10;Если изображение сбоку от текста, то круг сверху. Если изображение под текстом, то круг сбоку." />
+    <MESSAGE value="Отключить выравнивание по двум сторонам для заголовков и последней строки «All relationships are coordinated via one dedicated contact.»" />
+    <option name="LAST_COMMIT_MESSAGE" value="Отключить выравнивание по двум сторонам для заголовков и последней строки «All relationships are coordinated via one dedicated contact.»" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
