@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Исправляем проблему падающего солнца в большинстве конфигураций.">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/img-mobile-se-1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/img-mobile-se-2.0x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/img-mobile-se.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -357,7 +351,7 @@
       <workItem from="1676292049021" duration="4340000" />
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
-      <workItem from="1676442734270" duration="10186000" />
+      <workItem from="1676442734270" duration="10505000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -380,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676445695834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Исправляем проблему падающего солнца в большинстве конфигураций.">
+      <created>1676454237743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676454237743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
