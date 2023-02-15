@@ -7,6 +7,7 @@
     <link href="js/libs/jquery.fullPage.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Wellyards</title>
+    <!-- <style>html, body {max-width: 100%; overflow-x: hidden;}</style> --> <!-- Исправляет белую полоску справа после возврата из горизонтального режима, но конфликтует с отображением нижних блоков на мобильных при прокрутке -->
 </head>
 <body>
 <div class="page-container page-main">
@@ -42,7 +43,7 @@
                   <img src="img/wellyards-logo.svg" alt="">
                </div>
                <img class="main_img desktop_img gb_animate" src="img/001.png" alt="">
-               <img class="mobile_img" src="img/img-mobile.png" alt="">
+               <img class="mobile_img" src="img/img-mobile.png" srcset="img/img-mobile-1.5x.png 1.5x, img/img-mobile-2.0x.png 2x" alt="">
            </div>
        </section>
         <section class="section page__item text_item full mob_animate text_animate" id="section2" data-anchor="about">
