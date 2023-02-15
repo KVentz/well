@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Убрана горизонтальная прокрутка на узких экранах (картинка boys распирала экран): картинка уменьшена до 90%.">
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +352,7 @@
       <workItem from="1676292049021" duration="4340000" />
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
-      <workItem from="1676442734270" duration="22059000" />
+      <workItem from="1676442734270" duration="23036000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -425,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676465893540</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла.">
+      <created>1676466129645</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676466129645</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -487,7 +493,8 @@
     <MESSAGE value="Отключить выравнивание по двум сторонам для заголовков и последней строки «All relationships are coordinated via one dedicated contact.»" />
     <MESSAGE value="Добавлена прокрутка меню, если меню не помещается по вертикали." />
     <MESSAGE value="Убрана горизонтальная прокрутка на узких экранах (картинка boys распирала экран): картинка уменьшена до 90%." />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрана горизонтальная прокрутка на узких экранах (картинка boys распирала экран): картинка уменьшена до 90%." />
+    <MESSAGE value="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла." />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
