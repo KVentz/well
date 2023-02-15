@@ -753,12 +753,20 @@ body {
 	max-width: 30vw;
 }
 
-.page__item_text .img_girls img {
+.page__item_text .img_girls img.mobile_mobile {
+	width: 99%;
+}
+
+.page__item_text .img_girls img.desktop_desktop {
 	width: 100%;
 }
 
-.page__item_text .boys_m img {
-	width: 90%;
+.page__item_text .boys_m img.mobile_mobile {
+	width: 99%;
+}
+
+.page__item_text .boys_m img.desktop_desktop {
+	width: 80%;
 }
 
 .city_img {
@@ -2383,7 +2391,7 @@ body {
 }
 
 .page__item_text .boys_m img {
-	width: 80%;
+	width: 75%;
 }
 
 /* .page__item_text .img_girls .desktop_desktop {
@@ -2698,7 +2706,7 @@ body {
 	justify-content: space-between !important;
 }
 
-.img_girls.boys_m .mobile_mobile {
+.img_girls .mobile_mobile {
 	max-width: 100%;
 }
 
