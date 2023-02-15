@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла.">
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Не переносим словосочетания Attracted people и Multi purpose на новую строку на десктопах: увеличиваем ширину колонки с 50% до 59%.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
     </list>
@@ -352,7 +352,7 @@
       <workItem from="1676292049021" duration="4340000" />
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
-      <workItem from="1676442734270" duration="23036000" />
+      <workItem from="1676442734270" duration="24584000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -431,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676466129645</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Не переносим словосочетания Attracted people и Multi purpose на новую строку на десктопах: увеличиваем ширину колонки с 50% до 59%.">
+      <created>1676467722632</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676467722632</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -494,7 +501,8 @@
     <MESSAGE value="Добавлена прокрутка меню, если меню не помещается по вертикали." />
     <MESSAGE value="Убрана горизонтальная прокрутка на узких экранах (картинка boys распирала экран): картинка уменьшена до 90%." />
     <MESSAGE value="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла." />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнение к предыдущему: картинка увеличена до 100% - работает и так. Убран комментарий из html-файла." />
+    <MESSAGE value="Не переносим словосочетания Attracted people и Multi purpose на новую строку на десктопах: увеличиваем ширину колонки с 50% до 59%." />
+    <option name="LAST_COMMIT_MESSAGE" value="Не переносим словосочетания Attracted people и Multi purpose на новую строку на десктопах: увеличиваем ширину колонки с 50% до 59%." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
