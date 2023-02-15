@@ -2545,6 +2545,10 @@ body {
 	text-align: justify;
 }
 
+.page__item_text .container_text p.h2, .page__item_text .container_text p.via_text {
+	text-align: left;
+}
+
 .page__item_text .img_girls {
 	max-width: 90%;
 }
