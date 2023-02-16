@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах.">
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Исправлены искажения соотношений сторон картинок в конфигурации очень узкого экрана.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +355,7 @@
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
       <workItem from="1676442734270" duration="34439000" />
-      <workItem from="1676496652408" duration="2151000" />
+      <workItem from="1676496652408" duration="4074000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -461,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676532280774</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Исправлены искажения соотношений сторон картинок в конфигурации очень узкого экрана.">
+      <created>1676532487625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676532487625</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -529,7 +537,8 @@
     <MESSAGE value="Полностью перерисовал картинки второго и третьего блока.&#10; &#10;Перерисовал картинки с девушками и парнями десктопного и мобильного вида, добавил версии высокого разрешения для десктопной и мобильной версий.&#10;&#10;Вёрстка подстроена под новые изображения." />
     <MESSAGE value="Сбалансированы размеры картинок относительно друг друга в десктопных вариантах." />
     <MESSAGE value="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах." />
+    <MESSAGE value="Исправлены искажения соотношений сторон картинок в конфигурации очень узкого экрана." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлены искажения соотношений сторон картинок в конфигурации очень узкого экрана." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
