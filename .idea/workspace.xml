@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Полностью перерисовал картинки второго и третьего блока.&#10; &#10;Перерисовал картинки с девушками и парнями десктопного и мобильного вида, добавил версии высокого разрешения для десктопной и мобильной версий.&#10;&#10;Вёрстка подстроена под новые изображения.">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="39a15e09-2ca1-4508-8dee-095db4a081dd" name="Default" comment="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах.">
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +354,7 @@
       <workItem from="1676368658782" duration="3000" />
       <workItem from="1676437109282" duration="2558000" />
       <workItem from="1676442734270" duration="34439000" />
-      <workItem from="1676496652408" duration="1863000" />
+      <workItem from="1676496652408" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="Убраны белые вертикальные полосы слева и справа в горизонтальном режиме на айфонах.">
       <created>1676440336462</created>
@@ -456,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676494617773</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах.">
+      <created>1676532280774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676532280774</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -522,7 +527,9 @@
     <MESSAGE value="Не переносим словосочетания Attracted people и Multi purpose на новую строку на десктопах: увеличиваем ширину колонки с 50% до 59%." />
     <MESSAGE value="Уменьшил картинку второго блока (boys) относительно картинки первого блока (girls). Немного подстроил размеры картинок в разных режимах." />
     <MESSAGE value="Полностью перерисовал картинки второго и третьего блока.&#10; &#10;Перерисовал картинки с девушками и парнями десктопного и мобильного вида, добавил версии высокого разрешения для десктопной и мобильной версий.&#10;&#10;Вёрстка подстроена под новые изображения." />
-    <option name="LAST_COMMIT_MESSAGE" value="Полностью перерисовал картинки второго и третьего блока.&#10; &#10;Перерисовал картинки с девушками и парнями десктопного и мобильного вида, добавил версии высокого разрешения для десктопной и мобильной версий.&#10;&#10;Вёрстка подстроена под новые изображения." />
+    <MESSAGE value="Сбалансированы размеры картинок относительно друг друга в десктопных вариантах." />
+    <MESSAGE value="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сбалансированы размеры картинок женщин и мужчин относительно друг друга в десктопных вариантах." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
